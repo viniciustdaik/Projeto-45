@@ -130,9 +130,9 @@ function draw(){
     }
 
     //Se segurar uma dessas teclas, E a velocidade Y da garota for 0
-    if(keyDown(UP_ARROW) && girl.velocityY == 0 && dialogo == 0 && girlIsRastera == false
-    ||keyDown("w") && girl.velocityY == 0 && dialogo == 0 && girlIsRastera == false
-    ||keyDown("space") && girl.velocityY == 0 && dialogo == 0 && girlIsRastera == false){
+    if(keyDown(UP_ARROW) && girl.velocityY == 0 && girlIsRastera == false
+    ||keyDown("w") && girl.velocityY == 0 && girlIsRastera == false
+    ||keyDown("space") && girl.velocityY == 0 && girlIsRastera == false){
         //Velocidade da garota em Y é -10
         girl.velocityY = -10;
 
